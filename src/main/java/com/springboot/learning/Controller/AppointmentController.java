@@ -19,8 +19,7 @@ public class AppointmentController {
 	@PostMapping("/book")
 	public String bookAppointment(@RequestBody AppointmentRequest appointmentRequest) {
 		
-		return appointmentService.bookAppointment(appointmentRequest);
-		
+		return appointmentService.bookAppointment(appointmentRequest);	
 	}
 
 }
